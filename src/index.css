@@ -1,10 +1,15 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Courier New", Courier, monospace;
+    background: linear-gradient(90deg, rgba(0,36,0,0.8776552857471114) 0%, rgba(57,121,9,1) 35%,
+     rgba(0,255,123,1));
+     /* change to be jarvis-y */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
 }
 
 code {
