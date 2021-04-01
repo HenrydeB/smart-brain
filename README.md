@@ -3,7 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Live Verson](#live-version)
+* [Live Version](#live-version)
+* [Uses and Future Expansion](#Uses-and-Future-Expansion)
 
 ## General info
 This project was my first attempt at a full-stack application. The functionality is pretty straightforward:
@@ -28,5 +29,18 @@ Give it time and it'll wake up! Follow the link and give it a try for me.
 
 https://smart-brain-client-side.herokuapp.com/
 
+## Uses and Future Expansion
+
+This application is pretty much where I'd like it to be for now. I created this as a part of a class I attended to learn how to create a full stack application, so the real accomplishment here was the structure. Creating an application with a sign in/ register with the ability to log this information into a database is knowledge that I can
+apply to future applications, and the use of this external API built using machine learning has opened the door into the world of machine learning that I can't close. 
+
+If I were to expand this application, here are a few elements I would add:
+
+* Method to save images that were submitted to a database
+* Change the format from just picture to video submissions (maybe making the the video a live feed)
+
+If I were to make the above changes however, I'd have to make this project private.
+
+If you have any questions please reach out to me! henrydebuc@gmail.com
 
 
