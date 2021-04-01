@@ -3,18 +3,28 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Live Verson](#live-version)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project was my first attempt at a full-stack application. The functionality is pretty straightforward:
+* User registers and their information gets stored in the postgreSQL database
+* User submits an image link URL into the image link form
+* The Clarifai face-recognition API identifies the face in the image and places a box around it
+* The application logs the submission in the ticker
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* REACT version 17.0.1
+* Tachyons version 4.12.0
+* Express version 4.17.1
+* Clarifai version 2.9.1
 
-This app was my first attempt at a Full-Stack application using Javascript, HTML, CSS, all in REACT. The back end, found under the Smart-Brain-API repository, uses Node, Express, Knex, BCrypt, and Cors with a database on PostgreSQL. 
+## Live Version
 
+The client side and the sever of this application are hosted on Heroku. When an application is not used for a while, a Heroku application "goes to sleep.
+Give it time and it'll wake up! Follow the link and give it a try for me.
 
 https://smart-brain-client-side.herokuapp.com/
+
+
+
